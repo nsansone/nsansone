@@ -258,7 +258,7 @@ input, select, textarea {
 		}
 
 		.row.aln-left {
-			justify-content: flex-start;
+			justify-content: center;
 		}
 
 		.row.aln-center {
@@ -266,7 +266,7 @@ input, select, textarea {
 		}
 
 		.row.aln-right {
-			justify-content: flex-end;
+			justify-content: center;
 		}
 
 		.row.aln-top {
@@ -501,7 +501,7 @@ input, select, textarea {
 				}
 
 				.row.aln-left {
-					justify-content: flex-start;
+					justify-content: center;
 				}
 
 				.row.aln-center {
@@ -509,7 +509,7 @@ input, select, textarea {
 				}
 
 				.row.aln-right {
-					justify-content: flex-end;
+					justify-content: center;
 				}
 
 				.row.aln-top {
@@ -991,7 +991,7 @@ input, select, textarea {
 				}
 
 				.row.aln-left {
-					justify-content: flex-start;
+					justify-content: center;
 				}
 
 				.row.aln-center {
@@ -999,7 +999,7 @@ input, select, textarea {
 				}
 
 				.row.aln-right {
-					justify-content: flex-end;
+					justify-content: center;
 				}
 
 				.row.aln-top {
@@ -1236,7 +1236,7 @@ input, select, textarea {
 				}
 
 				.row.aln-left {
-					justify-content: flex-start;
+					justify-content: center;
 				}
 
 				.row.aln-center {
@@ -1244,7 +1244,7 @@ input, select, textarea {
 				}
 
 				.row.aln-right {
-					justify-content: flex-end;
+					justify-content: center;
 				}
 
 				.row.aln-top {
@@ -1753,10 +1753,12 @@ input, select, textarea {
 		cursor: pointer;
 		text-decoration: none;
 		outline: 0;
-		padding: 1em 3em 1em 3em;
+		padding: 1em 1em 1em 1em;
 		text-align: center;
 		border-radius: 3em;
 		font-weight: 400;
+		margin: 1em;
+		width: 150px;
 	}
 
 		input[type="button"]:hover,
@@ -1933,7 +1935,7 @@ input, select, textarea {
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						/* border-bottom: solid 1px #fff; */
 					}
 
 				.box.style2 .inner .image {
@@ -2643,3 +2645,76 @@ input, select, textarea {
 			}
 
 	}
+
+.project-skill-list {
+  font-size: 16px;
+}
+
+.JS-project-title {
+	font-size: 20px;
+	width: 460px;
+	margin-left: -30px;
+}
+
+.contact-me {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: inherit;
+}
+
+.headshot {
+	margin-top: 30px;
+	border-radius: 50%;
+	height: 230px;
+	width: 230px;
+}
+
+.send-message {
+	width: 200px !important;
+}
+
+#see-my-work {
+	width: 200px;
+}
+
+#skill-icons {
+	color: white;
+	font-size: 30px;
+	display: block;
+	padding-bottom: 25px;
+}
+#rails-cont {
+	color: white;
+	margin-top: 0px !important;
+	width: 25% !important;
+	height: 20px !important;
+	/* margin-right: 80px !important;
+	margin-left: 80px !important; */
+	margin-bottom: 17px !important;
+	
+}
+
+#icon {
+	margin: 0 auto;
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	width: 30px !important;
+	height: 35px !important;
+}
+
+#rails-icon {
+	margin: 0 auto;
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	width: 45px !important;
+	height: 35px !important;
+	padding-bottom: 17px;
+}
+
+.skill-names {
+	font-size: 25px;
+
+}
+
