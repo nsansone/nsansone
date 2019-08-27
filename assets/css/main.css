@@ -2679,7 +2679,7 @@ input, select, textarea {
 
 #skill-icons {
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 	display: block;
 	padding-bottom: 25px;
 }
@@ -2699,8 +2699,8 @@ input, select, textarea {
 	padding-top: 0px !important;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
-	width: 30px !important;
-	height: 35px !important;
+	width: 40px !important;
+	height: 45px !important;
 }
 
 #rails-icon {
@@ -2708,13 +2708,13 @@ input, select, textarea {
 	padding-top: 0px !important;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
-	width: 45px !important;
-	height: 35px !important;
+	width: 55px !important;
+	height: 45px !important;
 	padding-bottom: 17px;
 }
 
 .skill-names {
-	font-size: 25px;
+	font-size: 15px;
 
 }
 
