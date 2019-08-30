@@ -1490,10 +1490,10 @@ input, select, textarea {
 		.image img {
 			display: block;
 			max-width: 100%;
-			max-height: 100%;
+			/* max-height: 100%;
 			height: auto;
 			width: auto;
-			object-fit: contain;
+			object-fit: contain; */
 		}
 
 		.image.featured {
@@ -2686,6 +2686,10 @@ input, select, textarea {
 	display: block;
 	padding-bottom: 25px;
 }
+
+#skill-icons span {
+	padding-bottom: 20px;
+}
 #rails-cont {
 	color: white;
 	margin-top: 0px !important;
@@ -2693,7 +2697,7 @@ input, select, textarea {
 	height: 20px !important;
 	/* margin-right: 80px !important;
 	margin-left: 80px !important; */
-	margin-bottom: 17px !important;
+	/* margin-bottom: 17px !important; */
 	
 }
 
@@ -2704,6 +2708,7 @@ input, select, textarea {
 	padding-left: 0px !important;
 	width: 40px !important;
 	height: 45px !important;
+	border: none !important;
 }
 
 #rails-icon {
@@ -2713,11 +2718,23 @@ input, select, textarea {
 	padding-left: 0px !important;
 	width: 55px !important;
 	height: 45px !important;
-	padding-bottom: 17px;
+	padding-bottom: 0px !important;
+}
+
+.skill-names-icons {
+	font-size: 15px;
+	padding-top: 10px;
 }
 
 .skill-names {
 	font-size: 15px;
-
+}
+.project-gifs {
+		border: 2px solid grey;
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+		width: auto;
+		object-fit: contain;
 }
 
